@@ -12,6 +12,19 @@
     max-width: min-content;
 }
 
+#button {
+    width: 100%;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(230, 32, 32);
+    height: 25px;
+}
+
+#secao-titulo {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
 header .container,
 section .container{
     display: flex;
@@ -139,12 +152,17 @@ nav{
         font-size: 1.5em;
     }
 
+    #button {
+        width: 35.5%;
+    }
+
     .noticias {
         display: block;
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         margin: 0 5%;
+        row-gap: 30px;
     }
     .noticias .noticia {
         margin-bottom: 32px;
